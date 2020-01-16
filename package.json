@@ -1,11 +1,10 @@
 {
-  "name": "binary-file",
-  "version": "0.2.1",
+  "name": "binary-file-gl",
+  "version": "1.0.0",
   "description": "Read and write binary types in files",
   "author": {
-    "name": "Marvin Roger",
-    "email": "bonjourmarvin@marvinroger.fr",
-    "url": "http://marvinroger.fr"
+    "name": "Gary Land",
+    "email": "gary.land@warwickicsystems.com"
   },
   "contributors": [],
   "keywords": [
@@ -15,18 +14,18 @@
     "parse",
     "serialize"
   ],
-  "homepage": "https://github.com/marvinroger/node-binary-file",
+  "homepage": "https://github.com/garyland/node-binary-file",
   "repository": {
     "type": "git",
-    "url": "https://github.com/marvinroger/node-binary-file.git"
+    "url": "https://github.com/garyland/node-binary-file.git"
   },
-  "bugs": "https://github.com/marvinroger/node-binary-file/issues",
+  "bugs": "https://github.com/garyland/node-binary-file/issues",
   "main": "index.js",
   "scripts": {
     "test": "semistandard"
   },
   "engines": {
-    "node": "12.10.0"
+    "node": ">=8.17.0"
   },
   "dependencies": {
     "denodeify": "^1.2.1"
